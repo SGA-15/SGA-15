@@ -3,6 +3,50 @@
 
 ---
 
+<!-- 🌟 MATRIX BACKGROUND -->
+<div align="center">
+  <canvas id="matrix"></canvas>
+</div>
+
+<script>
+  const canvas = document.getElementById("matrix");
+  const ctx = canvas.getContext("2d");
+
+  canvas.height = 300;
+  canvas.width = window.innerWidth;
+
+  const letters = "01";
+  const fontSize = 12;
+  const columns = canvas.width / fontSize;
+  const drops = [];
+
+  for (let x = 0; x < columns; x++) {
+    drops[x] = 1;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#0F0"; // Green matrix
+    ctx.font = fontSize + "px monospace";
+
+    for (let i = 0; i < drops.length; i++) {
+      const text = letters[Math.floor(Math.random() * letters.length)];
+      ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+      drops[i]++;
+    }
+  }
+
+  setInterval(draw, 35);
+</script>
+
+---
+
 ## 🌟 About Me
 - 🔭 Working as an **Embedded R&D Engineer**  
 - 💡 Specialized in **Verilog (RTL Design)** and **SystemVerilog (Beginner)**  
@@ -37,16 +81,6 @@
 - **Languages:** Verilog, SystemVerilog (Beginner), Python, Java, SQL  
 - **Tools:** AMD Vivado, Xilinx ISE, Microwind, LTSpice  
 - **Domains:** RTL Design, Digital Electronics, IoT Systems  
-
----
-
-## 🔥 Matrix Hacker Animation
-👉 Click below to view the **Matrix Animation (Hacker Face)**  
-<p align="center">
-  <a href="https://sga-15.github.io/SGA-15/matrix.html" target="_blank">
-    <img src="https://img.shields.io/badge/🔗%20Open-Matrix%20Animation-green?style=for-the-badge&logo=github" />
-  </a>
-</p>
 
 ---
 
