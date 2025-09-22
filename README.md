@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/matrix_hacker_face.gif" alt="Matrix Hacker Face" width="100%" />
+</p>
+
+
 # Hi 👋 I'm Aadhithyaa S G
 
 <h3 align="center"><b>⚡ Embedded R&D Engineer | Verilog Specialist | SystemVerilog Beginner | VLSI & RTL Enthusiast ⚡</b></h3>
