@@ -15,7 +15,7 @@
   .content { position: relative; z-index: 1; padding: 40px; max-width: 1000px; margin:auto; }
   a { color: #00FFAB; text-decoration: none; font-weight: bold; }
   h2,h3,h4 { color:#00FFAB; font-weight:bold; }
-  .tech-icons img { margin: 5px; height:40px; }
+  .tech-icons img { margin: 5px; height:50px; vertical-align:middle; }
 </style>
 
 <canvas id="matrix"></canvas>
@@ -32,9 +32,9 @@
   resizeCanvas();
 
   const letters = "01";
-  const fontSize = 14;
+  const fontSize = 16;
   let columns = canvas.width / fontSize;
-  let drops = Array.from({length: columns}, () => 1);
+  let drops = Array.from({length: columns}, () => Math.floor(Math.random() * canvas.height / fontSize));
 
   function drawMatrix() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
@@ -46,7 +46,7 @@
     drops.forEach((y, i) => {
       const text = letters[Math.floor(Math.random() * letters.length)];
       ctx.fillText(text, i * fontSize, y * fontSize);
-      drops[i] = y * fontSize > canvas.height && Math.random() > 0.975 ? 0 : y + 1;
+      drops[i] = (y * fontSize > canvas.height && Math.random() > 0.975) ? 0 : y + 1;
     });
   }
 
@@ -56,7 +56,7 @@
 <div class="content">
 
 ## 👨‍🔧 About Me
-I am a dynamic <b>Embedded R&D Engineer</b> with expertise in <b>Verilog, FPGA prototyping, RTL design, and hardware-software integration</b>.  
+I am a dynamic <b>Embedded R&D Engineer</b> with expertise in <b>Verilog, SystemVerilog, FPGA prototyping, RTL design, and hardware-software integration</b>.  
 I bridge <b>embedded systems and semiconductor design</b>, delivering real-time, product-oriented solutions.
 
 **Core strengths:** digital design, RTL verification, FPGA prototyping, embedded firmware, hardware debugging, R&D.
@@ -98,7 +98,9 @@ I bridge <b>embedded systems and semiconductor design</b>, delivering real-time,
 
 ## 💻 Technical Skills
 <p class="tech-icons" align="center">
-  <img src="https://skillicons.dev/icons?i=verilog,systemverilog,python,c,cpp,arduino,git,github,linux" alt="tech icons"/>
+  <img src="https://raw.githubusercontent.com/SGA-15/assets/main/verilog-icon.png" alt="Verilog"/>
+  <img src="https://raw.githubusercontent.com/SGA-15/assets/main/systemverilog-icon.png" alt="SystemVerilog"/>
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,arduino,git,github,linux" alt="other tech icons"/>
 </p>
 
 ---
