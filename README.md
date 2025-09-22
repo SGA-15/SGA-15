@@ -21,36 +21,38 @@
 <canvas id="matrix"></canvas>
 
 <script>
-  const canvas = document.getElementById("matrix");
-  const ctx = canvas.getContext("2d");
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
 
-  function resizeCanvas() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  }
-  window.addEventListener('resize', resizeCanvas);
-  resizeCanvas();
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resizeCanvas);
+resizeCanvas();
 
-  const letters = "01";
-  const fontSize = 16;
-  let columns = canvas.width / fontSize;
-  let drops = Array.from({length: columns}, () => Math.floor(Math.random() * canvas.height / fontSize));
+const letters = "01";
+const fontSize = 16;
+let columns = Math.floor(canvas.width / fontSize);
+let drops = Array.from({length: columns}, () => Math.floor(Math.random() * canvas.height / fontSize));
 
-  function drawMatrix() {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+function drawMatrix() {
+  ctx.fillStyle = "rgba(0,0,0,0.05)";
+  ctx.fillRect(0,0,canvas.width,canvas.height);
 
-    ctx.fillStyle = "#0F0";
-    ctx.font = fontSize + "px 'Times New Roman'";
+  ctx.fillStyle = "#0F0";
+  ctx.font = fontSize + "px 'Times New Roman'";
 
-    drops.forEach((y, i) => {
-      const text = letters[Math.floor(Math.random() * letters.length)];
-      ctx.fillText(text, i * fontSize, y * fontSize);
-      drops[i] = (y * fontSize > canvas.height && Math.random() > 0.975) ? 0 : y + 1;
-    });
-  }
+  drops.forEach((y, i) => {
+    const text = letters[Math.floor(Math.random() * letters.length)];
+    ctx.fillText(text, i * fontSize, y * fontSize);
 
-  setInterval(drawMatrix, 35);
+    // reset drop to top randomly for smooth continuous flow
+    drops[i] = y * fontSize > canvas.height && Math.random() > 0.975 ? 0 : y + 1;
+  });
+}
+
+setInterval(drawMatrix, 35);
 </script>
 
 <div class="content">
@@ -98,8 +100,10 @@ I bridge <b>embedded systems and semiconductor design</b>, delivering real-time,
 
 ## 💻 Technical Skills
 <p class="tech-icons" align="center">
-  <img src="https://raw.githubusercontent.com/SGA-15/assets/main/verilog-icon.png" alt="Verilog"/>
-  <img src="https://raw.githubusercontent.com/SGA-15/assets/main/systemverilog-icon.png" alt="SystemVerilog"/>
+  <!-- Verilog icon from UXWing -->
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/technology-software/verilog-code-file-icon.png" alt="Verilog"/>
+  <!-- SystemVerilog icon (can reuse Verilog if custom not available) -->
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/technology-software/verilog-code-file-icon.png" alt="SystemVerilog"/>
   <img src="https://skillicons.dev/icons?i=python,c,cpp,arduino,git,github,linux" alt="other tech icons"/>
 </p>
 
