@@ -1,25 +1,35 @@
 <h1 align="center">Hi 👋, I'm Aadhithyaa S G</h1>
 <h3 align="center">🚀 Embedded (R&D) Engineer | Verilog Specialist | SystemVerilog Beginner</h3>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="600" height="300" />
-</p>
-
 ---
 
 ## 🌟 About Me
 - 🔭 Working as an **Embedded R&D Engineer**  
-- 💡 Specialized in **Verilog (RTL Design)** and a **beginner in SystemVerilog**  
+- 💡 Specialized in **Verilog (RTL Design)** and **SystemVerilog (Beginner)**  
 - ⚡ Passionate about **Digital Electronics, RTL Design, and EV Systems**  
 - 📍 Based in **Hosur, Tamil Nadu**
 
 ---
 
-## 🏆 Highlighted Project – *Landslide Early Detection and Alerting System*
-- 🛰️ Designed & developed a **sensor + ML-based system** to detect landslides **1 hour in advance**  
-- 📊 Integrated real-time data from **environmental sensors**  
-- 🏅 Won **₹7,000 cash award** + **certificate of recognition** for performance  
-- 🌍 Impact: Helps prevent loss of life and property in hilly regions  
+## 🏆 Highlighted Projects
+
+### 🔹 Landslide Early Detection and Alerting System *(Main Project)*  
+- 🛰️ **Machine learning + sensor-based system** to detect landslides *1 hour in advance*  
+- 📊 Integrated **real-time environmental sensor data**  
+- 🏅 Won **₹7,000 cash award** + certificate for efficiency  
+- 🌍 Helps prevent **loss of life and property** in hilly regions  
+
+---
+
+### 🔹 Ride Guard EV (with Raptee Startup EV)  
+- 🚦 IoT system to detect **accident-prone zones**  
+- 📡 Auto SOS alerts with **ML-based risk prediction**  
+
+---
+
+### 🔹 Asynchronous FIFO (Low-Power Design)  
+- 🔋 Implemented **clock gating + voltage scaling**  
+- 🔄 Optimized data transfer between clock domains  
 
 ---
 
@@ -31,8 +41,11 @@
 ---
 
 ## 🔥 Matrix Hacker Animation
+👉 Click below to view the **Matrix Animation (Hacker Face)**  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dots.gif" alt="matrix" width="700"/>
+  <a href="https://sga-15.github.io/SGA-15/matrix.html" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Open-Matrix%20Animation-green?style=for-the-badge&logo=github" />
+  </a>
 </p>
 
 ---
@@ -45,10 +58,4 @@
   <a href="https://github.com/SGA-15" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-SGA--15-black?logo=github" />
   </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.gifer.com/7iJU.gif" width="600" height="300" />
 </p>
