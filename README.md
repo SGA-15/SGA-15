@@ -1,18 +1,5 @@
 # Hi 👋 I'm Aadhithyaa S G
 
-<h3 align="center"><b>⚡ Embedded R&D Engineer | Verilog Specialist | SystemVerilog Beginner | VLSI & RTL Enthusiast ⚡</b></h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&size=24&pause=1000&color=00FFAB&center=true&vCenter=true&width=760&lines=Embedded+R%26D+Engineer;VLSI+%26+RTL+Design;FPGA+Prototyping+%7C+SystemVerilog;Hardware+%2B+Software+Integration" alt="typing" />
-</p>
-
-<!-- MATRIX HACKER-FACE GIF -->
-<p align="center">
-  <img src="assets/matrix_hacker_face.gif" alt="Matrix Hacker Face" width="100%" />
-</p>
-
----
-
 ## 🏆 Highlighted Projects
 <p align="center">
   <a href="https://github.com/SGA-15/AI-Driven-Landslide-Early-Detection-and-Alerting-System" title="ML + sensor-based system to detect landslides 1 hour in advance. Real-time environmental sensor integration. Won ₹7,000 cash award. Helps prevent loss of life and property in hilly regions.">
