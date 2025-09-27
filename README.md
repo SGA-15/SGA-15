@@ -1,13 +1,5 @@
 # Hi 👋 I'm Aadhithyaa S G
 
-<p align="center">
-  <img src="https://img.icons8.com/ios-filled/50/00FFAB/microchip.png" alt="Embedded R&D" height="40" />
-  <b>Embedded R&D Engineer at Valeo</b>  
-  <br/>
-  Working on advanced **embedded systems, R&D, and automotive electronics**.
-</p>
-
-
 <h3 align="center"><b>⚡ Embedded R&D Engineer | Verilog Specialist | SystemVerilog Beginner | VLSI & RTL Enthusiast ⚡</b></h3>
 
 <p align="center">
