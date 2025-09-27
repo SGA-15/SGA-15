@@ -1,5 +1,4 @@
 # Hi 👋 I'm Aadhithyaa S G
-## 💼 Current Position
 
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/50/00FFAB/microchip.png" alt="Embedded R&D" height="40" />
@@ -19,14 +18,6 @@
 <p align="center">
   <img src="assets/matrix_hacker_face.gif" alt="Matrix Hacker Face" width="100%" />
 </p>
-
----
-
-## 👨‍🔧 About Me
-I am a dynamic **Embedded R&D Engineer** with expertise in **Verilog, SystemVerilog, FPGA prototyping, RTL design, and hardware-software integration**.  
-I bridge **embedded systems and semiconductor design**, delivering real-time, product-oriented solutions.
-
-**Core strengths:** digital design, RTL verification, FPGA prototyping, embedded firmware, hardware debugging, R&D.
 
 ---
 
